@@ -1,0 +1,9 @@
+/* 共通 */
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+}

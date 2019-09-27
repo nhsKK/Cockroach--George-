@@ -1,0 +1,132 @@
+/* 繝｡繧､繝ｳ */
+
+main {
+    width: 100%;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:first-letter {
+    font-size: 2em;
+    color: #733924;
+}
+
+/* 繧ｹ繝ｩ繧､繝繝ｼ */
+
+.slider {
+    margin: 0 0 50px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.center-item .slick-next {
+    right: 20px;
+    z-index: 99;
+}
+
+.center-item .slick-prev {
+    left: 15px;
+    z-index: 100;
+}
+
+.slick-dots {
+    bottom: -25px;
+}
+
+.slick-center {
+    box-shadow: 0 0 8px gray;
+}
+
+.slick-slide:not(.slick-center) {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.center-item .slick-prev {
+    z-index: 90;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: gray;
+}
+
+/* 項目枠 */
+.mainbox{
+    width: 500px;
+    padding: 2rem 1em;
+    margin: 0 auto;
+    color: #474747;
+    border: double 7px rgba(71, 71, 71, 0.1);
+}
+.mainbox p{
+    margin: 10px auto;
+}
+/* info_table */
+.info_table{
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* info項目 */
+info {
+    overflow: hidden;
+}
+.info {
+    overflow: hidden;
+}
+.info .head {
+    color: #5d5d5d;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 1px;
+    border: double 7px rgba(71, 71, 71, 0.1);
+    
+}
+.info .body {
+    overflow: hidden;
+    border-bottom: double 7px rgba(71, 71, 71, 0.1);
+    border-right: double 7px rgba(71, 71, 71, 0.1);
+    border-left: double 7px rgba(71, 71, 71, 0.1);
+}
+.info .body .left,.info .body .right {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 65px;
+    margin: 0 auto;
+}
+.info .body table {
+    vertical-align: top;
+}
+.info .body table tr {
+    display: block;
+    margin-bottom: 23px;
+}
+
+.info .body .right {
+    border-left: double 7px rgba(71, 71, 71, 0.1);
+}
+.info .body table {
+    vertical-align: top;
+}
